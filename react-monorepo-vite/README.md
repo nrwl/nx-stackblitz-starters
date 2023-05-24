@@ -1,6 +1,6 @@
-# Myreactapp
+# UnicornCorp
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/nrwl/nx-stackblitz-starters/tree/main/react-standalone-vite?file=src/app/app.tsx)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/nrwl/nx-stackblitz-starters/tree/main/react-monorepo-vite?file=src/app/app.tsx)
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -8,15 +8,13 @@
 
 ## Setup locally
 
-Just run
-
 ```
-npx create-nx-workspace@latest myreactapp --preset=react-standalone --bundler=vite
+npx create-nx-workspace@latest unicorn-corp --preset=react-monorepo --appName=demoapp --bundler=vite
 ```
 
 ## Development server
 
-Run `nx serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `nx serve demoapp` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## Understand this workspace
 
